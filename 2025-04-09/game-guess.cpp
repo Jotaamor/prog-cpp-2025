@@ -10,16 +10,19 @@
 int main(void){
     const int NUM = 10;
     int guessed_number;
+    //Blucles: while, for
+while (guessed_number != NUM){ //for (;;) {
     std::cout << "Adivina un numero entre 1 y 100:\n";
     std::cin >> guessed_number;
 
-    if (guessed_number == NUM){
+    if (guessed_number == NUM){//condicional
         std::cout <<"GANASTE!!!\n";
-    }else if (si guessed_number > NUM){
+        //brake;
+    }else if (guessed_number < NUM){
         std:: cout <<"Tal ves un poco alto.\n";
     }else {
         std:: cout <<"Un poco mas abajo.\n";
     }
-
+}
     return 0;
 }
