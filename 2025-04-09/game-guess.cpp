@@ -15,6 +15,8 @@ int main(void){
 
     if (guessed_number == NUM){
         std::cout <<"GANASTE!!!\n";
+    }else{
+        std:: cout <<"Perdiste :c intentalo de nuevo.\n";
     }
 
     return 0;
