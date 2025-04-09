@@ -9,7 +9,7 @@
 
 int main(void){
     const int NUM = 10;
-    int guessed_number;
+    int guessed_number = NUM/2;
     //Blucles: while, for
 while (guessed_number != NUM){ //for (;;) {
     std::cout << "Adivina un numero entre 1 y 100:\n";
@@ -17,7 +17,7 @@ while (guessed_number != NUM){ //for (;;) {
 
     if (guessed_number == NUM){//condicional
         std::cout <<"GANASTE!!!\n";
-        //brake;
+        //brake; //sale del for, while
     }else if (guessed_number < NUM){
         std:: cout <<"Tal ves un poco alto.\n";
     }else {
