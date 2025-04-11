@@ -6,9 +6,17 @@
 */
 
 #include <iostream>
+//devlarar funcion
+void play(void);
 
-int main(void){
-    const int NUM = 10;
+int main (void){
+    play();
+
+    return 0;
+}
+
+void play(void){
+    const int NUM = 10; //const para no cambiar la variable
     int guessed_number = NUM/2;
     //Blucles: while, for
 while (guessed_number != NUM){ //for (;;) {
@@ -35,5 +43,4 @@ while (guessed_number != NUM){ //for (;;) {
         std:: cout <<"Un poco mas abajo.\n";
     }
 }
-    return 0;
 }
